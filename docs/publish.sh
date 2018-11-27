@@ -11,7 +11,7 @@ cd ${NOTEBOOK_DIR}
 # sed -i.bak s/mxnet/mxnet-cu90/g environment.yml
 
 # prepare the env
-conda env update -f environment.yml
+conda env update -f environment.yml -n gluon_docs
 source activate gluon_docs
 
 make html
