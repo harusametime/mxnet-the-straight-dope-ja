@@ -29,6 +29,7 @@ Part 1: Deep Learning Fundamentals
    :maxdepth: 1
    :caption: Crash course
    
+   chapter01_crashcourse/test
    chapter01_crashcourse/preface
    chapter01_crashcourse/introduction
    chapter01_crashcourse/ndarray
