@@ -11,13 +11,3 @@ copyright = u'2011, Sphinx-users.jp'
 # You need to install `easy_install sphinxjp.themes.sphinxjp`
 
 extensions = ['sphinxjp.themecore']
-html_theme = 'sphinxjp'
-
-################################################################
-# HTML theme options for `sphinxjp` theme
-
-html_theme_options = {
-    'hatena_bookmark': False,
-    'hatena_star': False,
-    'hatena_star_token': '<GET YOUR HATENA STAR TOKEN AND SET HERE>',
-}
