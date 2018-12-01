@@ -40,7 +40,7 @@ Part 1: Deep Learning の基礎
 .. toctree::
    :glob:
    :maxdepth: 1
-   :caption: Introduction to supervised learning
+   :caption: 教師あり学習の基本
 
    chapter02_supervised-learning/linear-regression-scratch
    chapter02_supervised-learning/linear-regression-gluon
@@ -55,7 +55,7 @@ Part 1: Deep Learning の基礎
 .. toctree::
    :glob:
    :maxdepth: 1
-   :caption: Deep neural networks
+   :caption: Deep neural network (深層ニューラルネットワーク)
 
    chapter03_deep-neural-networks/mlp-scratch
    chapter03_deep-neural-networks/mlp-gluon
@@ -68,7 +68,7 @@ Part 1: Deep Learning の基礎
 .. toctree::
    :glob:
    :maxdepth: 1
-   :caption: Convolutional neural networks
+   :caption: Convolutional neural networks (畳み込みニューラルネットワーク)
 
    chapter04_convolutional-neural-networks/cnn-scratch
    chapter04_convolutional-neural-networks/cnn-gluon
@@ -80,7 +80,7 @@ Part 1: Deep Learning の基礎
 .. toctree::
    :glob:
    :maxdepth: 1
-   :caption: Recurrent neural networks
+   :caption: Recurrent neural networks (再帰的ニューラルネットワーク)
 
    chapter05_recurrent-neural-networks/simple-rnn
    chapter05_recurrent-neural-networks/lstm-scratch
@@ -90,7 +90,7 @@ Part 1: Deep Learning の基礎
 .. toctree::
    :glob:
    :maxdepth: 1
-   :caption: Optimization
+   :caption: 最適化
 
    chapter06_optimization/optimization-intro
    chapter06_optimization/gd-sgd-scratch
@@ -109,7 +109,7 @@ Part 1: Deep Learning の基礎
 .. toctree::
    :glob:
    :maxdepth: 1
-   :caption: High-performance and distributed training
+   :caption: 高性能な分散学習
 
    chapter07_distributed-learning/hybridize
    chapter07_distributed-learning/multiple-gpus-scratch
@@ -124,7 +124,7 @@ Part 2: アプリケーション
 .. toctree::
    :glob:
    :maxdepth: 1
-   :caption: Computer vision
+   :caption: コンピュータビジョン
 
    chapter08_computer-vision/object-detection
    chapter08_computer-vision/fine-tuning
@@ -139,14 +139,14 @@ Part 2: アプリケーション
 .. toctree::
    :glob:
    :maxdepth: 1
-   :caption: Recommender systems
+   :caption: 推薦システム
 
    chapter11_recommender-systems/intro-recommender-systems
 
 .. toctree::
    :glob:
    :maxdepth: 1
-   :caption: Time series
+   :caption: 時系列データ
 
    chapter12_time-series/lds-scratch
    chapter12_time-series/issm-scratch
@@ -157,14 +157,14 @@ Part 3: 発展
 .. toctree:: Unsupervised Learning
    :glob:
    :maxdepth: 1
-   :caption: High-performance and distributed training
+   :caption: 高性能な分散学習
 
    chapter13_unsupervised-learning/vae-gluon
 
 .. toctree::
    :glob:
    :maxdepth: 1
-   :caption: Generative adversarial networks
+   :caption: Generative adversarial networks (敵対的生成ネットワーク)
 
    chapter14_generative-adversarial-networks/gan-intro
    chapter14_generative-adversarial-networks/dcgan
@@ -174,7 +174,7 @@ Part 3: 発展
 .. toctree::
    :glob:
    :maxdepth: 1
-   :caption: Variational methods
+   :caption: Variational methods (変分法)
 
    chapter18_variational-methods-and-uncertainty/bayes-by-backprop.ipynb
    chapter18_variational-methods-and-uncertainty/bayes-by-backprop-gluon.ipynb
@@ -183,13 +183,13 @@ Part 3: 発展
 .. toctree::
    :glob:
    :maxdepth: 1
-   :caption: Cheat sheets
+   :caption: チートシート
 
    cheatsheets/kaggle-gluon-kfold.ipynb
 
 .. toctree::
    :glob:
    :maxdepth: 1
-   :caption: Developer documents
+   :caption: 開発者向けドキュメント
 
    docs/*
